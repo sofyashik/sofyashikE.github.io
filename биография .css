@@ -1,0 +1,97 @@
+@charset "utf-8";
+h1 {text-align: center}
+body {background-color:darksalmon}
+hr{
+	color:black;
+	background-color:black;
+	height: 3px
+}
+.vse3{
+	max-width: 900px;
+	min-width: 300px;
+	height: auto;
+	margin: 20px auto;
+	background-color: bisque;
+	box-shadow: 0 5px 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	text-align: left;
+	padding: 10px 5px;
+}
+
+.leftfoto{
+float:left;
+margin: 4px 10px px 0px;
+border:2px solid bisque;
+padding:6px;
+}
+.rightfoto{
+float:right;
+margin: 5px 10px px 0px;
+border:2px solid bisque;
+padding:6px;
+}
+.leftfoto2{
+float:left;
+margin: 4px 10px px 0px;
+border:2px solid bisque;
+padding:6px;
+}
+.rightfoto3{
+float:right;
+margin: 4px 10px px 0px;
+border:2px solid bisque;
+padding:6px;
+}
+p1{margin: 0px 50px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p2{margin: 20px 50px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p3{margin: 20px 50px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+a{font-size: 25px;text-decoration: none}
+    #menu, #menu li {
+
+        margin: 0; /* убрать внутренние отступы */
+
+        padding: 0; /* убрать внешние отступы */
+
+    }
+
+    #menu {
+
+        background: #F76466; /* цвет фона навигационной панели */
+
+    }
+
+    #menu li{
+
+        display:inline-block; /* расположить пункты горизонтально */ 
+    }
+
+    #menu a {
+
+        display: block; /* ссылка растягивается на весь пункт li */
+
+        padding: 5px 50px; /* задаем внутренние отступы */
+
+        color: #fff; /* цвет текста */
+
+        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC; /* фон пунктов при наведении */
+
+    }

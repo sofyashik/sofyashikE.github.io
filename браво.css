@@ -1,0 +1,106 @@
+@charset "utf-8";
+h1 {text-align: center}
+body {background-color:darksalmon}
+hr{
+	color:black;
+	background-color:black;
+	height: 3px
+}
+a{font-size: 25px;text-decoration: none}
+.vse4{
+	max-width: 900px;
+	min-width: 300px;
+	height: auto;
+	margin: 20px auto;
+	background-color: bisque;
+	box-shadow: 0 5px 10px;
+	border-radius: 10px;
+	font-size: 20px;
+	padding: 10px 5px;
+	
+}
+
+p1{margin: 0px 50px;
+	line-height: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p2{margin: 0px 50px;
+	line-height: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p3{margin: 0px 50px;
+	line-height: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p4{margin: 0px 50px;
+	line-height: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	border-left: 10px;
+	}
+p5{margin: 0px 50px;
+	line-height: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+ #menu, #menu li {
+
+        margin: 0; /* убрать внутренние отступы */
+        padding: 0; /* убрать внешние отступы */
+
+    }
+
+    #menu {
+
+        background:#F76466; /* цвет фона навигационной панели */
+
+    }
+
+    #menu li{
+
+        display:inline-block; /* расположить пункты горизонтально */
+		
+    }
+
+    #menu a {
+
+        display: block; /* ссылка растягивается на весь пункт li */
+        padding: 5px 50px; /* задаем внутренние отступы */
+        color: #fff; /* цвет текста */
+        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+		
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC; /* фон пунктов при наведении */
+}
+/*table {
+   border: 1px solid bisque;
+   margin: 10px;
+   text-align="center";
+}*/
+.rightfoto4{
+float:right;
+margin: 4px 10px px 0px;
+border:2px solid bisque;
+padding:6px;
+}
+.resp-tab {
+    border-radius: 5px;
+    font-weight: normal;
+    border: none;
+    min-width: 300px;
+    max-width: 900px;
+	margin: auto;
+}
+.resp-tab th, .resp-tab td {
+    padding: 5px 5px;
+    border: none;  
+    border: 1px solid bisque;
+    vertical-align: top;
+}
+.resp-tab tr {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-bottom: 3px;
+    }

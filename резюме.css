@@ -1,0 +1,92 @@
+@charset "utf-8";
+h1 {text-align: center}
+body {background-color:darksalmon}
+
+hr{
+	color:black;
+	background-color:black;
+	height: 3px
+}
+.vse5{
+	max-width: 900px;
+	min-width: 300px;
+	height: auto;
+	margin: 20px auto;
+	background-color: bisque;
+	box-shadow: 0 5px 10px;
+	border-radius: 10px;
+	padding: 10px 5px;
+}
+li{font-size: 25px;
+	margin-left: 30px;
+	margin-top: 5px}
+  #menu, #menu li {
+
+        margin: 0; /* убрать внутренние отступы */
+        padding: 0; /* убрать внешние отступы */
+
+    }
+
+    #menu {
+
+        background: #F76466; /* цвет фона навигационной панели */
+
+    }
+
+    #menu li{
+
+        display:inline-block; /* расположить пункты горизонтально */
+    }
+
+    #menu a {
+
+        display: block; /* ссылка растягивается на весь пункт li */
+        padding: 5px 50px; /* задаем внутренние отступы */
+        color: #fff; /* цвет текста */
+        text-decoration: none; /* убрать нижнее подчёркивание у ссылок */
+		
+    }
+
+    #menu a:hover {
+
+        background: #8AB8CC; /* фон пунктов при наведении */
+
+    }
+.rightfoto{
+float:right;
+margin: 5px 10px px 0px;
+border:5px solid bisque;
+padding:6px;
+}
+p1{font-size: 20px;
+	margin: 0px 0px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p2{font-size: 20px;
+	margin: 0px 0px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p3{font-size: 20px;
+	margin: 0px 0px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	
+	}
+p4{font-size: 20px;
+	margin: 0px 0px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+p5{font-size: 20px;
+	margin: 0px 0px;
+	line-height: 30px;
+	text-indent: 30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", "Times New Roman", "serif";
+	}
+
